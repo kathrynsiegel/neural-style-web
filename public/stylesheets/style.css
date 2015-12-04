@@ -11,16 +11,21 @@ a {
   background: #BABABA;
 }
 
-.multi-style-img {
+.multi-style-img, .mp-img {
   margin: auto;
   display: none;
 }
-.multi-style-shown {
+.multi-style-shown, .mp-shown {
   display: block;
 }
 
 .centered-row {
   text-align: center;
+}
+
+.img-container {
+  margin-top:20px;
+  margin-bottom:20px;
 }
 
 
