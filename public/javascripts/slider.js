@@ -16,7 +16,7 @@ $(document).ready(function() {
   };
   var styleSlider = $('#mp-slider').bootstrapSlider({
     formatter: function(value) {
-      return "alpha/beta value: 10e" + value;
+      return "alpha/beta value: 1e" + value;
     }
   }).on('slide', changeImage2);
 });
