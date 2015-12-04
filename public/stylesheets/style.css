@@ -7,6 +7,20 @@ a {
   color: #00B7FF;
 }
 
-#ex1Slider .slider-selection {
+#multi-style-slider {
   background: #BABABA;
 }
+
+.multi-style-img {
+  margin: auto;
+  display: none;
+}
+.multi-style-shown {
+  display: block;
+}
+
+.centered-row {
+  text-align: center;
+}
+
+

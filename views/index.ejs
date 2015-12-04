@@ -2,14 +2,26 @@
 <html>
   <head>
     <% include partials/head %>
-    <script src="/javascripts/main.js"></script>
+    <script src="/javascripts/slider.js"></script>
   </head>
   <body>
-    <h1>Neural Style</h1>
-    <img src="/images/sps100.jpg">
-    <img src="/images/sps80.jpg">
-    <img src="/images/sps60.jpg">
-    <img src="/images/sps40.jpg">
-    <img src="/images/sps20.jpg">
+    <h1 class="centered-row">Neural Style</h1>
+    <div id="picasso-gogh" class="row centered-row">
+      <h4>Stata in the style of Picasso's "Dora Maar" and Van Gogh's "The Starry Night"</h4>
+      <div class="img-container">
+        <img class="multi-style-img" src="/images/sps100.jpg">
+        <img class="multi-style-img" src="/images/sps90.jpg">
+        <img class="multi-style-img multi-style-shown" src="/images/sps80.jpg">
+        <img class="multi-style-img" src="/images/sps70.jpg">
+        <img class="multi-style-img" src="/images/sps60.jpg">
+        <img class="multi-style-img" src="/images/sps50.jpg">
+        <img class="multi-style-img" src="/images/sps40.jpg">
+        <img class="multi-style-img" src="/images/sps30.jpg">
+        <img class="multi-style-img" src="/images/sps20.jpg">
+        <img class="multi-style-img" src="/images/sps10.jpg">
+        <img class="multi-style-img" src="/images/sps0.jpg">
+      </div>
+      <div id="multi-style-slider" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="10" data-slider-value="20"></div>
+    </div>
   </body>
 </html>
