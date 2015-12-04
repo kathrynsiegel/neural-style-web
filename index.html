@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="javascripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascripts/bootstrap-slider.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap-slider.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Neural Style</title>
+    <script src="javascripts/slider.js"></script>
+  </head>
+  <body>
+    <h1 class="centered-row">Neural Style</h1>
+    <div id="picasso-gogh" class="row centered-row img-container">
+      <h4>Stata in the style of Picasso's "Dora Maar" and Van Gogh's "The Starry Night"</h4>
+      <div>
+        <img class="multi-style-img" src="images/sps100.jpg">
+        <img class="multi-style-img" src="images/sps90.jpg">
+        <img class="multi-style-img multi-style-shown" src="images/sps80.jpg">
+        <img class="multi-style-img" src="images/sps70.jpg">
+        <img class="multi-style-img" src="images/sps60.jpg">
+        <img class="multi-style-img" src="images/sps50.jpg">
+        <img class="multi-style-img" src="images/sps40.jpg">
+        <img class="multi-style-img" src="images/sps30.jpg">
+        <img class="multi-style-img" src="images/sps20.jpg">
+        <img class="multi-style-img" src="images/sps10.jpg">
+        <img class="multi-style-img" src="images/sps0.jpg">
+      </div>
+      <div id="multi-style-slider" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="10" data-slider-value="20"></div>
+    </div>
+    <div id="marilyn-picasso" class="row centered-row img-container">
+      <h4>Marilyn Monroe in the style of Picasso's The Dream</h4>
+      <div>
+        <img class="mp-img" src="images/mp1.jpg">
+        <img class="mp-img" src="images/mp10.jpg">
+        <img class="mp-img mp-shown" src="images/mp100.jpg">
+        <img class="mp-img" src="images/mp1000.jpg">
+        <img class="mp-img" src="images/mp10000.jpg">
+      </div>
+      <div id="mp-slider" type="text" data-slider-min="1" data-slider-max="5" data-slider-step="1" data-slider-value="2"></div>
+    </div>
+    <div id="video-panning" class="row centered-row img-containers">
+      <h4>Panning Shot in the style of Van Gogh's Starry Night</h4>
+      <video controls="controls" width="600" name="Panning Starry Night" src="images/movie_panning.mp4"></video>
+    </div>
+
+  </body>
+</html>
