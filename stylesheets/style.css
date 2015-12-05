@@ -32,3 +32,6 @@ a {
   padding: 0px 8px;
 }
 
+.slider {
+  height: 50px !important;
+}

@@ -16,7 +16,11 @@ $(document).ready(function() {
   };
   var styleSlider = $('#mp-slider').bootstrapSlider({
     formatter: function(value) {
-      return "alpha/beta value: 1e" + value;
+      if (value % 2 == 0) {
+        return "alpha/beta value: 5e" + value/2;
+      } else {
+        return "alpha/beta value: 1e" + value;
+      }
     }
   }).on('slide', changeImage2);
 });
