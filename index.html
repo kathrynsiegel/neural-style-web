@@ -25,10 +25,15 @@
     </h1>
     <div id="picasso-gogh" class="row centered-row img-container">
       <h4>Stata in the style of Picasso's "Dora Maar" and Van Gogh's "The Starry Night"</h4>
+      <div class="row">
+        <button class="btn btn-default" id="content-input-1" data-placement="bottom">Content Input</button>
+        <button class="btn btn-default" id="style-input1-1" data-placement="bottom">Style Input 1</button>
+        <button class="btn btn-default" id="style-input2-1" data-placement="bottom">Style Input 2</button>
+      </div>
       <div>
-        <img class="multi-style-img" src="images/sps100.jpg">
+        <img class="multi-style-img multi-style-shown" src="images/sps100.jpg">
         <img class="multi-style-img" src="images/sps90.jpg">
-        <img class="multi-style-img multi-style-shown" src="images/sps80.jpg">
+        <img class="multi-style-img" src="images/sps80.jpg">
         <img class="multi-style-img" src="images/sps70.jpg">
         <img class="multi-style-img" src="images/sps60.jpg">
         <img class="multi-style-img" src="images/sps50.jpg">
@@ -38,27 +43,27 @@
         <img class="multi-style-img" src="images/sps10.jpg">
         <img class="multi-style-img" src="images/sps0.jpg">
       </div>
-      <div id="multi-style-slider" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="10" data-slider-value="20"></div>
+      <div id="multi-style-slider" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="10" data-slider-value="0"></div>
       <p>Slide to change the style blend weights used to generate the image.</p>
     </div>
     <div id="marilyn-picasso" class="row centered-row img-container">
       <h4>Marilyn Monroe in the style of Picasso's The Dream</h4>
       <div>
-        <img class="mp-img" src="images/mp1.jpg">
+        <img class="mp-img mp-shown" src="images/mp1.jpg">
         <img class="mp-img" src="images/mp5.jpg">
         <img class="mp-img" src="images/mp10.jpg">
         <img class="mp-img" src="images/mp50.jpg">
-        <img class="mp-img mp-shown" src="images/mp100.jpg">
+        <img class="mp-img" src="images/mp100.jpg">
         <img class="mp-img" src="images/mp500.jpg">
         <img class="mp-img" src="images/mp1000.jpg">
         <img class="mp-img" src="images/mp5000.jpg">
       </div>
-      <div id="mp-slider" type="text" data-slider-min="1" data-slider-max="8" data-slider-step="1" data-slider-value="2"></div>
+      <div id="mp-slider" type="text" data-slider-min="1" data-slider-max="8" data-slider-step="1" data-slider-value="1"></div>
       <p>Slide to change the ratio of content weight to style weight (alpha/beta)</p>
     </div>
     <div id="video-panning" class="row centered-row img-containers">
       <h4>Panning Shot in the style of Van Gogh's Starry Night</h4>
-      <video controls="controls" width="600" name="Panning Starry Night" src="images/movie_panning.mp4"></video>
+      <video controls="controls" width="600" name="Panning Starry Night" src="images/movie_panning.mp4" loop></video>
     </div>
 
   </body>
