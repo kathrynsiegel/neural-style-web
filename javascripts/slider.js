@@ -23,12 +23,17 @@ $(document).ready(function() {
       }
     }
   }).on('slide', changeImage2);
-  var content_input_1_img = '<img src="images/2-content.jpg" style="width:100%"/>';
+  var content_input_1_img = '<img src="images/2-content.jpg" style="width:200px"/>';
   $('#content-input-1').popover({ title: 'Picture of Stata', content: content_input_1_img, html:true});
-  var style_input1_1_img = '<img src="images/2-style1.jpg" style="width:100%"/>';
+  var style_input1_1_img = '<img src="images/2-style1.jpg" style="width:200px"/>';
   $('#style-input1-1').popover({ title: 'Picasso\'s \"Dora Maar\"', content: style_input1_1_img, html:true});
-  var style_input2_1_img = '<img src="images/2-style2.jpg" style="width:100%"/>';
+  var style_input2_1_img = '<img src="images/2-style2.jpg" style="width:200px"/>';
   $('#style-input2-1').popover({ title: 'Van Gogh\'s \"The Starry Night\"', content: style_input2_1_img, html:true});
+
+  var ci2 = '<img src="images/marilyn.jpg" style="width:200px;"/>';
+  $('#content-input-2').popover({ title: 'Picture of Marilyn Monroe', content: ci2, html:true});
+  var si2 = '<img src="images/picasso2.jpg" style="width:200px"/>';
+  $('#style-input-2').popover({ title: 'Picasso\'s \"The Dream\"', content: si2, html:true});
 
 
 
