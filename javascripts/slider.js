@@ -35,6 +35,7 @@ $(document).ready(function() {
   var si2 = '<img src="images/picasso2.jpg" style="width:200px"/>';
   $('#style-input-2').popover({ title: 'Picasso\'s \"The Dream\"', content: si2, html:true});
 
-
+  var si3 = '<img src="images/munch-1.jpg" style="width:244px;"/>';
+  $('#style-input-3').popover({ title: 'Munch\'s \"Self Portrait with Wine Bottle\"', content: si3, html:true});
 
 });

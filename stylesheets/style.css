@@ -35,3 +35,8 @@ a {
 .slider {
   height: 50px !important;
 }
+
+video {
+  margin-bottom: 40px;
+}
+
